@@ -1,0 +1,138 @@
+body {
+	background-color: darkred;
+	color: white;
+}
+
+@font-face {
+    font-family: 'plazaregular';
+    src: url('fonts/plaza_regular.woff2') format('woff2'),
+         url('fonts/plaza_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-decorativeregular';
+    src: url('fonts/plazaef-decorative_regular.woff2') format('woff2'),
+         url('fonts/plazaef-decorative_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-inlineregular';
+    src: url('fonts/plazaef-inline_regular.woff2') format('woff2'),
+         url('fonts/plazaef-inline_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazadultregular';
+    src: url('fonts/plazadult_regular.woff2') format('woff2'),
+         url('fonts/plazadult_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	p {
+		font-size: 40px;
+		font-family:'plazaregular';
+		border-width: 30px;
+		text-indent: 30px;
+		word-spacing: 5px;
+		letter-spacing: 1px;
+	}
+
+
+img {
+	width: 500px;
+}
+
+#container {
+display: flex;
+	flex-wrap: wrap;
+	gap: 1200px;
+}
+
+#header1 {
+	font-size: 150px;
+	font-family: 'plazadultregular', serif;
+		font-style: italic;
+	font-weight: lighter;
+	animation: fadein 2s infinite;
+}
+
+#header2 {
+	font-size: 75px;
+	font-family: 'plazadultregular', serif;
+	font-weight: bold;
+}
+
+#header3 {
+	font-size: 75px;
+	font-family:'plazadultregular';
+}
+
+#header4 {
+	font-size: 75px;
+	font-family:'plazadultregular';
+}
+
+.Container {
+	height: 90vh;
+	width: auto;
+	display: flex;
+	gap: 20px;
+	padding: 10px;
+	margin: 20px;
+	justify-content: center;
+}
+
+.Container2 {
+	height: 100vh;
+	width: auto;
+	display: flex;
+	gap: 20px;
+	padding: 10px;
+	margin: 20px;
+	justify-content: center;
+}
+
+#Paragraph2 {
+	height: 90vh;
+}
+
+#Paragraph7 {
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 10px;
+	margin: 20px;
+	justify-content: center;
+}
+
+@keyframes fadein {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+#BatmanLightning {
+	animation: lightning 1.5s infinite;
+}
+
+@keyframes lightning {
+	35% {opacity: 0;}
+	40% {opacity: 1}
+	42% {opacity: 0}
+	43% {opacity: 1}
+	46% {opacity: 0}
+	50% {opacity: 1;}
+	100% {opacity: 0;}
+}
