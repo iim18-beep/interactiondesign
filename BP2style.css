@@ -1,0 +1,64 @@
+body {
+	background-color: darkred;
+	color: white;
+}
+
+@font-face {
+    font-family: 'plazaregular';
+    src: url('fonts/plaza_regular.woff2') format('woff2'),
+         url('fonts/plaza_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-decorativeregular';
+    src: url('fonts/plazaef-decorative_regular.woff2') format('woff2'),
+         url('fonts/plazaef-decorative_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-inlineregular';
+    src: url('fonts/plazaef-inline_regular.woff2') format('woff2'),
+         url('fonts/plazaef-inline_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazadultregular';
+    src: url('fonts/plazadult_regular.woff2') format('woff2'),
+         url('fonts/plazadult_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+    color: white;
+    font-family: 'plazadultregular', serif;
+}
+
+img {
+	width: 1300px;
+	height: 900px;
+}
+
+#Header1 {
+	font-size: 150px;
+	font-family: 'plazadultregular', serif;
+		font-style: italic;
+	font-weight: lighter;
+}
+
+
+
+
+
+
+
