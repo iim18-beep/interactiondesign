@@ -94,16 +94,9 @@ a {
 #PlazaCity {
      position: fixed;
      bottom: 0px;
-     left: -90px;
-     z-index: -2;
-}
-
-#PlazaCity:hover {
-    background-image: url(PlazaBackground2.png);
-    position: fixed;
-     bottom: 0px;
-     left: -90px;
-     z-index: -2;
+     z-index: -1;
+     left: -9px;
+     width: 2250px;
 }
 
 
