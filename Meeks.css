@@ -1,0 +1,103 @@
+body {
+    background-color: #56357d;
+	color: white;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'plazaregular';
+    src: url('fonts/plaza_regular.woff2') format('woff2'),
+         url('fonts/plaza_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-decorativeregular';
+    src: url('fonts/plazaef-decorative_regular.woff2') format('woff2'),
+         url('fonts/plazaef-decorative_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-inlineregular';
+    src: url('fonts/plazaef-inline_regular.woff2') format('woff2'),
+         url('fonts/plazaef-inline_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazadultregular';
+    src: url('fonts/plazadult_regular.woff2') format('woff2'),
+         url('fonts/plazadult_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 40px 80px;
+  text-decoration: none;
+  font-family: 'plazaregular';
+  font-size: 40px;
+}
+
+ul li a:hover {
+  background-color: darkblue;
+}
+
+p {
+    font-family: 'plazaregular';
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+}
+
+/* Hover state: The text turns red when the mouse is over it */
+a:hover {
+  color: #7a4f9f;
+}
+
+.image-container img {
+  display: block; /* Ensures the image behaves like a block element, taking up its own line */
+  margin: 0 auto; /* Centers the image if the container is wider than the image */
+}
+
+.image-container p {
+  text-align: center; /* Centers the text below the image */
+  margin-top: 10px; /* Adds a little space between the image and the text */
+}
+
+#Meeks {
+    width: 500px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
