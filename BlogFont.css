@@ -1,0 +1,405 @@
+body {
+	background-color: #223d7b;
+	color: white;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'plazaregular';
+    src: url('fonts/plaza_regular.woff2') format('woff2'),
+         url('fonts/plaza_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-decorativeregular';
+    src: url('fonts/plazaef-decorative_regular.woff2') format('woff2'),
+         url('fonts/plazaef-decorative_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazaef-inlineregular';
+    src: url('fonts/plazaef-inline_regular.woff2') format('woff2'),
+         url('fonts/plazaef-inline_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plazadultregular';
+    src: url('fonts/plazadult_regular.woff2') format('woff2'),
+         url('fonts/plazadult_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 40px 80px;
+  text-decoration: none;
+  font-family: 'plazaregular';
+  font-size: 40px;
+}
+
+ul li a:hover {
+  background-color: darkblue;
+}
+
+a {
+    color: white;
+    font-family: 'plazadultregular', serif;
+}
+
+a:hover {
+    color: #7a93cb;
+}
+
+#containerletters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.letter {
+    font-size: 40px;
+    font-family:'plazaregular';
+}
+
+.letter:hover {
+    color: #c12026;
+}
+
+
+#containerletters2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.letter2 {
+    font-size: 40px;
+    font-family:'plazadultregular';
+}
+
+.letter2:hover {
+    color: #c12026;
+}
+
+#containerletters3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#containerletters4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.letter4 {
+    font-size: 40px;
+    font-family:'plazaef-inlineregular';
+}
+
+.letter4:hover {
+    color: #c12026;
+}
+
+.letter3 {
+    font-size: 40px;
+    font-family:'plazaef-decorativeregular';
+}
+
+.letter3:hover {
+    color: #c12026;
+}
+
+#containternumbers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.number {
+    font-size: 40px;
+    font-family:'plazaregular';
+}
+
+.number:hover {
+    color: #c12026;
+}
+
+#containternumbers2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.number2 {
+    font-size: 40px;
+    font-family:'plazadultregular';
+}
+
+.number2:hover {
+    color: #c12026;
+}
+
+#containternumbers3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.number3 {
+    font-size: 40px;
+    font-family:'plazaef-decorativeregular';
+}
+
+.number3:hover {
+    color: #c12026;
+}
+
+#containersymbols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.symbol {
+    font-size: 40px;
+    font-family:'plazaregular';
+}
+
+.symbol:hover {
+    color: #c12026;
+}
+
+#containersymbols2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.symbol2 {
+    font-size: 40px;
+    font-family:'plazadultregular';
+}
+
+.symbol2:hover {
+    color: #c12026;
+}
+
+#containersymbols3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.symbol3 {
+    font-size: 40px;
+    font-family:'plazaef-decorativeregular';
+}
+
+.symbol3:hover {
+    color: #c12026;
+}
+
+#Globe {
+    height: 500px;
+    width: 1000px;
+    position: fixed;
+    bottom: 0;
+    left: 615px;
+}
+
+light-on-hover {
+    transition: filter 0.5s ease; /* Smooth transition over 0.5 seconds */
+    filter: brightness(100%); /* Normal brightness by default */
+}
+
+/* Apply effect on hover */
+.Globe:hover {
+    filter: brightness(150%); /* Increase brightness by 50% */
+}
+
+#SnowCity {
+    height: 600px;
+    position: fixed;
+    bottom: 0;
+    left: 200px;
+    z-index: -1;
+}
+
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+
+.snowflake,
+.snowflake .inner {
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+/* Falling animation */
+@keyframes snowflakes-fall {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(110vh); }
+}
+
+/* Side-to-side drifting */
+@keyframes snowflakes-shake {
+  0%, 100% { transform: translateX(0); }
+  50%      { transform: translateX(80px); }
+}
+
+/* Main snowflake container */
+.snowflake {
+  position: fixed;
+  top: -10%;
+  z-index: 9999;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  pointer-events: none;
+
+  animation-name: snowflakes-shake;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+/* Inner character (❅) falling */
+.snowflake .inner {
+  animation-duration: 10s;
+  animation-name: snowflakes-fall;
+  animation-timing-function: linear;
+}
+
+/* Individual flake positions + delays */
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  animation-delay: 0s;
+}
+.snowflake:nth-of-type(0) .inner {
+  animation-delay: 0s;
+}
+
+.snowflake:first-of-type {
+  left: 10%;
+  animation-delay: 1s;
+}
+.snowflake:first-of-type .inner,
+.snowflake:nth-of-type(8) .inner {
+  animation-delay: 1s;
+}
+
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  animation-delay: 0.5s;
+}
+.snowflake:nth-of-type(2) .inner,
+.snowflake:nth-of-type(6) .inner {
+  animation-delay: 6s;
+}
+
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  animation-delay: 2s;
+}
+.snowflake:nth-of-type(11) .inner,
+.snowflake:nth-of-type(3) .inner {
+  animation-delay: 4s;
+}
+
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  animation-delay: 2s;
+}
+.snowflake:nth-of-type(10) .inner,
+.snowflake:nth-of-type(4) .inner {
+  animation-delay: 2s;
+}
+
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  animation-delay: 3s;
+}
+.snowflake:nth-of-type(5) .inner {
+  animation-delay: 8s;
+}
+
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  animation-delay: 2s;
+}
+
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  animation-delay: 1s;
+}
+.snowflake:nth-of-type(7) .inner {
+  animation-delay: 2.5s;
+}
+
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  animation-delay: 0s;
+}
+
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  animation-delay: 1.5s;
+}
+.snowflake:nth-of-type(9) .inner {
+  animation-delay: 3s;
+}
+
+.snowflake:nth-of-type(10) {
+  left: 25%;
+  animation-delay: 0s;
+}
+
+.snowflake:nth-of-type(11) {
+  left: 65%;
+  animation-delay: 2.5s;
+}
+
+
+
+
+
+
+
+
+
