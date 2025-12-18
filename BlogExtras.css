@@ -93,13 +93,14 @@ flex-direction: column;
     padding: 10px;
 }
 
-.Plazagraph {
+.PlazaGraph {
     font-family: 'plazaef-decorativeregular';
-    width: 500px;
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     font-size: 55px;
+    text-indent: 20px;
 }
 
 a {
