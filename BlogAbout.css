@@ -123,13 +123,6 @@ ul li a:hover {
   gap: 2rem;             /* Space between columns */
   padding: 1rem;
 }
-
-@keyframes fadein {
-    0% {opacity: 1;}
-    50% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
 /* Hover state: The text turns red when the mouse is over it */
 a:hover {
   color: darkred;
